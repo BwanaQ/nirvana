@@ -8,11 +8,3 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'nirvana';
 }
-/*
-bg color 1c1c1c
-text ffffff
-price border 494949
-button 800000
-btn text ffffff
-datepicker 1c1c1c
-*/
