@@ -8,6 +8,7 @@ import { QuoteDetailComponent } from './components/quote-detail/quote-detail.com
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DayCountPipe } from './day-count.pipe';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { DayCountPipe } from './day-count.pipe';
     HeaderComponent,
     FooterComponent,
     DayCountPipe,
+    QuoteFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
