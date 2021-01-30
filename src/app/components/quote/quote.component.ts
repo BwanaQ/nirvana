@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
       'Tom Hunja',
       0,
       0,
-      new Date(2021, 1, 14)
+      new Date(2021, 1, 1)
     ),
     new Quote(
       2,
@@ -23,7 +23,7 @@ export class QuoteComponent implements OnInit {
       'Breens Mbaka',
       0,
       0,
-      new Date(2020, 3, 14)
+      new Date(2020, 0, 14)
     ),
     new Quote(
       3,
