@@ -5,6 +5,10 @@
 * {
   font-family: "Quattrocento Sans", sans-serif;
 }
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 .col-md-4 {
   padding: 0px;
 }
@@ -20,4 +24,15 @@
 }
 .down-vote {
   margin-top: 7px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #eb3349, #f45c43);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
 }
