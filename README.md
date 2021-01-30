@@ -1,27 +1,50 @@
 # Nirvana
 
+#### An application submitted for week 1 at MC38, 29th Jan, 2021
+
+#### By **Tom Hunja**
+
+## Description
+
+A web application for submitting and rating quotes
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
-## Development server
+## Setup/Installation Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. run npm install -g @angular/cli@next npm update.
+1. clone this repo
+   `git clone https://github.com/BwanaQ/mamamia.git`
+1. Run `ng serve` for a dev server.
+1. Navigate to `http://localhost:4200/`
 
-## Code scaffolding
+## BDD
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create a new quote.
+- Upvote or downvote a quote.
+- Delete a quote
+- See the number of upvotes and number of downvotes for each quote.
 
-## Build
+## Live Site
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+A live site can be found [here](https://bwanaq.github.io/nirvana/).
 
-## Running unit tests
+## Known Bugs
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+No known bugs
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Angular
+- HTML 5
+- CSS
+- TypeScript
+- Bootstrap
 
-## Further help
+## Support and contact details
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- thunjawax@gmail.com
+
+### License
+
+[MIT](https://choosealicense.com/licenses/mit/) Copyright (c) 2020 **Tom Hunja**
