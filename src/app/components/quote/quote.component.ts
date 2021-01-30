@@ -13,7 +13,8 @@ export class QuoteComponent implements OnInit {
       'William James',
       'Tom Hunja',
       0,
-      0
+      0,
+      new Date(2021, 1, 14)
     ),
     new Quote(
       2,
@@ -21,7 +22,8 @@ export class QuoteComponent implements OnInit {
       'Winston Churchill',
       'Breens Mbaka',
       0,
-      0
+      0,
+      new Date(2020, 3, 14)
     ),
     new Quote(
       3,
@@ -29,7 +31,8 @@ export class QuoteComponent implements OnInit {
       'Helen Keller',
       'Rose Okoth',
       0,
-      0
+      0,
+      new Date(2020, 3, 14)
     ),
     new Quote(
       4,
@@ -37,7 +40,8 @@ export class QuoteComponent implements OnInit {
       'Zig Ziglar',
       'Dawn Ndemo',
       0,
-      0
+      0,
+      new Date(2020, 3, 14)
     ),
     new Quote(
       5,
@@ -45,7 +49,8 @@ export class QuoteComponent implements OnInit {
       'Theodore Roosevelt',
       'Victor Kigen',
       0,
-      0
+      0,
+      new Date(2020, 3, 14)
     ),
   ];
   toggleDetails(index) {

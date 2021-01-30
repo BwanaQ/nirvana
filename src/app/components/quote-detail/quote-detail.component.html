@@ -1,5 +1,8 @@
 <div>
-  <p><strong>submitted By: </strong>{{ quote.submittedBy }}</p>
+  <p>
+    <strong>submitted By: </strong>{{ quote.submittedBy }}
+    {{ quote.dateCreated | dayCount }} days ago
+  </p>
   <p>
     <strong>Up Votes: </strong>
     {{ quote.upVote }}
