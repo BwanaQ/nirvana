@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. run npm install -g @angular/cli@next npm update.
 1. clone this repo
-   `git clone https://github.com/BwanaQ/mamamia.git`
+   `git clone https://github.com/BwanaQ/nirvana.git`
 1. Run `ng serve` for a dev server.
 1. Navigate to `http://localhost:4200/`
 
