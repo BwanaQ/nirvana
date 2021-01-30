@@ -12,8 +12,10 @@
     <div class="card-header">Quote {{ i + 1 }} of {{ quotes.length }}</div>
     <div class="card-body">
       <blockquote class="blockquote mb-0">
-        <p>{{ quote.quote }}</p>
-        <footer class="blockquote-footer">{{ quote.author }}</footer>
+        <p class="quote-font">{{ quote.quote }}</p>
+        <footer class="quote-author blockquote-footer">
+          {{ quote.author }}
+        </footer>
       </blockquote>
     </div>
     <div class="card-footer">
