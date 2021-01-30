@@ -15,3 +15,9 @@
 .quote-font {
   font-family: "Quattrocento Sans", sans-serif;
 }
+.up-vote {
+  margin-bottom: 7px;
+}
+.down-vote {
+  margin-top: 7px;
+}
