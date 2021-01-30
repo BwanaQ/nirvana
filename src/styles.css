@@ -5,6 +5,9 @@
 * {
   font-family: "Quattrocento Sans", sans-serif;
 }
+a {
+  color: white;
+}
 .container {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -39,4 +42,13 @@
   color: white;
   text-align: center;
   padding-top: 20px;
+}
+.badge.bg-success {
+  color: white;
+  background-image: linear-gradient(to right, #eb3349, #f45c43);
+  display: none;
+}
+.primary {
+  background-image: linear-gradient(to right, #eb3349, #f45c43);
+  border-color: rgba(0, 0, 0, 0.125);
 }
