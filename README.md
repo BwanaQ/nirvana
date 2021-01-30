@@ -48,4 +48,4 @@ No known bugs
 
 ### License
 
-[MIT](https://choosealicense.com/licenses/mit/) Copyright (c) 2020 **Tom Hunja**
+[MIT](https://choosealicense.com/licenses/mit/) Copyright (c) 2021 **Tom Hunja**
