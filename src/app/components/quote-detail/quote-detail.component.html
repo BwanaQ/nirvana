@@ -6,10 +6,16 @@
   <p>
     <strong>Votes: </strong>
     {{ quote.votes }}
-    <button class="circle btn btn-outline-secondary mr-1">
+    <button
+      (click)="upVote(true)"
+      class="circle btn btn-outline-secondary mr-1"
+    >
       <img class="up-vote" src="./assets/up-vote.png" alt="" />
     </button>
-    <button class="circle btn btn-outline-secondary">
+    <button
+      (click)="downVote(true)"
+      class="circle btn btn-outline-secondary mr-1"
+    >
       <img class="down-vote" src="./assets/down-vote.png" alt="" />
     </button>
   </p>

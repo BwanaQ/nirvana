@@ -13,7 +13,7 @@ export class QuoteComponent implements OnInit {
       'William James',
       'Tom Hunja',
       0,
-      new Date(2021, 1, 1)
+      new Date(2021, 0, 31)
     ),
     new Quote(
       2,
@@ -57,6 +57,7 @@ export class QuoteComponent implements OnInit {
       today.getMonth(),
       today.getDate()
     );
+
     this.quotes.push(quote);
   }
   toggleDetails(index) {
@@ -72,6 +73,19 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+  upVoteQuote(isUpVoted: boolean, index: number) {
+    if (isUpVoted) {
+      this.quotes[index].votes += 1;
+      console.log(this.quotes[index].votes);
+    }
+  }
+
+  downVoteQuote(isDownVoted: boolean, index: number) {
+    if (isDownVoted) {
+      this.quotes[index].votes -= 1;
+    }
+  }
+
   constructor() {}
 
   ngOnInit(): void {}

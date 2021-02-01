@@ -1,5 +1,10 @@
-<div class="col-md-6">
-  <app-quote-form (addQuote)="addNewQuote($event)"> </app-quote-form>
+<div class="row">
+  <div class="col-md-6 col-sm-12">
+    <app-quote-form (addQuote)="addNewQuote($event)"> </app-quote-form>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img src="./assets/bg.jpg" class="picha rounded-lg shadow" />
+  </div>
 </div>
 <div class="row">
   <div class="col-12 text-center">
@@ -9,7 +14,7 @@
 
 <div class="row">
   <div
-    class="card col-md-4 col-sm-12 mt-3"
+    class="card col-md-4 col-sm-12 mt-3 shadow"
     *ngFor="let quote of quotes; let i = index"
   >
     <div class="card-header">
@@ -32,6 +37,8 @@
         *ngIf="quote.showDetails"
         [quote]="quote"
         (isComplete)="deleteQuote($event, i)"
+        (isUpVote)="upVoteQuote($event, i)"
+        (isDownVote)="downVoteQuote($event, i)"
       ></app-quote-detail>
     </div>
   </div>
