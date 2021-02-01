@@ -13,7 +13,6 @@ export class QuoteComponent implements OnInit {
       'William James',
       'Tom Hunja',
       0,
-      0,
       new Date(2021, 1, 1)
     ),
     new Quote(
@@ -21,7 +20,6 @@ export class QuoteComponent implements OnInit {
       'Success is not final, failure is not fatal: it is the courage to continue that counts.',
       'Winston Churchill',
       'Breens Mbaka',
-      0,
       0,
       new Date(2020, 0, 14)
     ),
@@ -31,7 +29,6 @@ export class QuoteComponent implements OnInit {
       'Helen Keller',
       'Rose Okoth',
       0,
-      0,
       new Date(2020, 3, 14)
     ),
     new Quote(
@@ -40,7 +37,6 @@ export class QuoteComponent implements OnInit {
       'Zig Ziglar',
       'Dawn Ndemo',
       0,
-      0,
       new Date(2020, 3, 14)
     ),
     new Quote(
@@ -48,7 +44,6 @@ export class QuoteComponent implements OnInit {
       "Believe you can and you're halfway there.",
       'Theodore Roosevelt',
       'Victor Kigen',
-      0,
       0,
       new Date(2020, 3, 14)
     ),

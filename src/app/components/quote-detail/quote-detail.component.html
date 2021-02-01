@@ -4,15 +4,11 @@
     {{ quote.dateCreated | dayCount }} days ago
   </p>
   <p>
-    <strong>Up Votes: </strong>
-    {{ quote.upVote }}
-    <button class="circle btn btn-outline-secondary">
+    <strong>Votes: </strong>
+    {{ quote.votes }}
+    <button (click)class="circle btn btn-outline-secondary mr-1">
       <img class="up-vote" src="./assets/up-vote.png" alt="" />
     </button>
-  </p>
-  <p>
-    <strong>Down Votes: </strong>
-    {{ quote.downVote }}
     <button class="circle btn btn-outline-secondary">
       <img class="down-vote" src="./assets/down-vote.png" alt="" />
     </button>

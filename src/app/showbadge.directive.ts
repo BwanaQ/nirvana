@@ -4,5 +4,7 @@ import { Directive, ElementRef } from '@angular/core';
   selector: '[appShowbadge]',
 })
 export class ShowbadgeDirective {
-  constructor() {}
+  constructor(private elem: ElementRef) {
+    this.elem.nativeElement.style.textColor = '';
+  }
 }
