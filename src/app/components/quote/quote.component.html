@@ -17,9 +17,8 @@
     class="card col-md-4 col-sm-12 mt-3 shadow"
     *ngFor="let quote of quotes; let i = index"
   >
-    <div class="card-header">
-      Quote {{ i + 1 }} of {{ quotes.length }}
-      <span class="badge bg-success">Most Upvoted</span>
+    <div class="card-header" appShowbadge *ngIf="highestVote() === quote.votes">
+      <p>Quote {{ i + 1 }} of {{ quotes.length }}</p>
     </div>
     <div class="card-body">
       <blockquote class="blockquote mb-0">

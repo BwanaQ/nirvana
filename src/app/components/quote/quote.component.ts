@@ -12,7 +12,7 @@ export class QuoteComponent implements OnInit {
       'Act as if what you do makes a difference. It does.',
       'William James',
       'Tom Hunja',
-      0,
+      6,
       new Date(2021, 0, 31)
     ),
     new Quote(
@@ -20,7 +20,7 @@ export class QuoteComponent implements OnInit {
       'Success is not final, failure is not fatal: it is the courage to continue that counts.',
       'Winston Churchill',
       'Breens Mbaka',
-      0,
+      4,
       new Date(2020, 0, 14)
     ),
     new Quote(
@@ -28,7 +28,7 @@ export class QuoteComponent implements OnInit {
       'Never bend your head. Always hold it high. Look the world straight in the eye.',
       'Helen Keller',
       'Rose Okoth',
-      0,
+      7,
       new Date(2020, 3, 14)
     ),
     new Quote(
@@ -36,7 +36,7 @@ export class QuoteComponent implements OnInit {
       'What you get by achieving your goals is not as important as what you become by achieving your goals.',
       'Zig Ziglar',
       'Dawn Ndemo',
-      0,
+      6,
       new Date(2020, 3, 14)
     ),
     new Quote(
@@ -44,7 +44,7 @@ export class QuoteComponent implements OnInit {
       "Believe you can and you're halfway there.",
       'Theodore Roosevelt',
       'Victor Kigen',
-      0,
+      1,
       new Date(2020, 3, 14)
     ),
   ];
@@ -84,6 +84,18 @@ export class QuoteComponent implements OnInit {
     if (isDownVoted) {
       this.quotes[index].votes -= 1;
     }
+  }
+  highestVote() {
+    let prevNum = 0;
+    let lastNum = 0;
+    let i = 0;
+    for (i = 0; i < this.quotes.length; i++) {
+      lastNum = this.quotes[i].votes;
+      if (lastNum > prevNum) {
+        prevNum = lastNum;
+      }
+    }
+    return prevNum;
   }
 
   constructor() {}
