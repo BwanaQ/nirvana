@@ -53,6 +53,12 @@ export class QuoteComponent implements OnInit {
       new Date(2020, 3, 14)
     ),
   ];
+  addNewQuote(quote) {
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength + 1;
+    quote.dateCreated = new Date();
+    this.quotes.push(quote);
+  }
   toggleDetails(index) {
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
