@@ -56,7 +56,12 @@ export class QuoteComponent implements OnInit {
   addNewQuote(quote) {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;
-    quote.dateCreated = new Date();
+    let today = new Date();
+    quote.dateCreated = new Date(
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate()
+    );
     this.quotes.push(quote);
   }
   toggleDetails(index) {

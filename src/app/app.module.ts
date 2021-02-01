@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DayCountPipe } from './day-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { ShowbadgeDirective } from './showbadge.directive';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     FooterComponent,
     DayCountPipe,
     QuoteFormComponent,
+    ShowbadgeDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
