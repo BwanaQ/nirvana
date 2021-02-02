@@ -5,6 +5,6 @@ import { Directive, ElementRef } from '@angular/core';
 })
 export class ShowbadgeDirective {
   constructor(private elem: ElementRef) {
-    this.elem.nativeElement.style.backgroundColor = 'orange';
+    this.elem.nativeElement.style.backgroundColor = 'purple';
   }
 }
