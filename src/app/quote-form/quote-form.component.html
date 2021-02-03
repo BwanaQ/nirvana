@@ -21,6 +21,7 @@
     <div class="form-group">
       <label for="author">Author</label>
       <input
+        class="form-control"
         type="text"
         id="author"
         name="author"
@@ -41,6 +42,7 @@
         type="text"
         id="submittedBy"
         name="submittedBy"
+        class="form-control"
         [(ngModel)]="newQuote.submittedBy"
         required
         #submittedBy="ngModel"

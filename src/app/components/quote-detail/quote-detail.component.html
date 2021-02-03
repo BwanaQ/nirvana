@@ -6,14 +6,19 @@
   <p>
     <button
       (click)="downVote(true)"
-      class="btn btn-outline-secondary circle mr-2"
+      class="btn btn-outline-secondary circle mr-2 shadow-none"
     >
       <img class="down-vote" src="./assets/down-vote.png" alt="" />
     </button>
     <span class="mr-2">{{ quote.votes }}</span>
-    <button (click)="upVote(true)" class="btn btn-outline-secondary circle">
+    <button
+      (click)="upVote(true)"
+      class="btn btn-outline-secondary circle shadow-none"
+    >
       <img class="up-vote" src="./assets/up-vote.png" alt="" />
     </button>
   </p>
-  <button class="circle btn btn-danger" (click)="deleteQuote(true)">X</button>
+  <button class="circle btn btn-danger shadow-none" (click)="deleteQuote(true)">
+    X
+  </button>
 </div>
