@@ -10,7 +10,6 @@
         [(ngModel)]="newQuote.quote"
         name="quote"
         rows="4"
-        required
         #quote="ngModel"
       ></textarea>
       <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
@@ -26,7 +25,6 @@
         id="author"
         name="author"
         [(ngModel)]="newQuote.author"
-        required
         #author="ngModel"
       />
       <div
@@ -44,7 +42,6 @@
         name="submittedBy"
         class="form-control"
         [(ngModel)]="newQuote.submittedBy"
-        required
         #submittedBy="ngModel"
       />
       <div
